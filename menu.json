@@ -1,0 +1,91 @@
+{
+  "cafeName": "Oct Cafe",
+  "welcome": "It's Matt & Nikki's birthday — pull up a chair, pick something cozy, and we'll bring it over. On the house; you're our guest.",
+  "sections": [
+    {
+      "id": "drinks",
+      "title": "Drinks",
+      "items": [
+        {
+          "id": "cold-brew",
+          "name": "Cold brew",
+          "description": "Smooth, slow-steeped coffee over ice.",
+          "emoji": "🧊",
+          "tags": [
+            "cold",
+            "coffee"
+          ],
+          "image": "/icons/cold-brew.png"
+        },
+        {
+          "id": "iced-matcha",
+          "name": "Osmanthus honey iced matcha latte",
+          "description": "Iced matcha latte with floral osmanthus honey — bright, fragrant, lightly sweet.",
+          "emoji": "🥤",
+          "tags": [
+            "cold",
+            "matcha"
+          ],
+          "milkOptions": [
+            "Regular",
+            "Oat"
+          ],
+          "image": "/icons/osmanthus-matcha-layered.png"
+        },
+        {
+          "id": "iced-hojicha",
+          "name": "Iced hojicha latte",
+          "description": "Roasty Japanese hojicha over ice with creamy milk — nutty and smooth.",
+          "emoji": "🥤",
+          "tags": [
+            "cold",
+            "tea"
+          ],
+          "milkOptions": [
+            "Regular",
+            "Oat"
+          ],
+          "image": "/icons/hojicha-latte-layered.png"
+        }
+      ]
+    },
+    {
+      "id": "bites",
+      "title": "Bites",
+      "items": [
+        {
+          "id": "focaccia-sandwich",
+          "name": "Mini Focaccia sandwich",
+          "description": "Soft mini focaccia with today's fillings — ask the hosts.",
+          "emoji": "🥪",
+          "tags": [
+            "savoury"
+          ],
+          "image": "/icons/focaccia.png"
+        },
+        {
+          "id": "egg-tart",
+          "name": "Egg tart",
+          "description": "Flaky pastry, silky custard — classic birthday treat.",
+          "emoji": "🥧",
+          "tags": [
+            "sweet"
+          ],
+          "image": "/icons/egg-tart.png"
+        },
+        {
+          "id": "salt-bread",
+          "name": "Salt Bread (Shio Pan) 塩パン",
+          "description": "Japanese salted butter roll — crisp crust, soft crumb, buttery centre.",
+          "emoji": "🧂",
+          "tags": [
+            "savoury",
+            "bakery"
+          ],
+          "image": "/icons/salt-bread.png"
+        }
+      ]
+    }
+  ],
+  "logo": "/icons/oct-cafe-logo.png"
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" role="img" aria-label="Oct Cafe">
+  <defs>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a06f45"/>
+      <stop offset="55%" stop-color="#6b4328"/>
+      <stop offset="100%" stop-color="#442714"/>
+    </linearGradient>
+    <linearGradient id="y" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe76a"/>
+      <stop offset="55%" stop-color="#f0c53c"/>
+      <stop offset="100%" stop-color="#d9a422"/>
+    </linearGradient>
+    <filter id="s" x="-12%" y="-12%" width="124%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#3d2a1c" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <g filter="url(#s)">
+    <rect x="28" y="58" width="664" height="142" rx="70" ry="70" fill="url(#wood)"/>
+    <!-- scalloped wood silhouette approximation -->
+    <path fill="url(#wood)" d="M40 120c8-40 70-70 140-74s130 16 170 28c28 8 60 10 90 6 70-8 140-24 210-10 48 10 90 36 98 72 6 28-6 56-34 74-30 20-74 28-126 30-48 2-92-6-130-16-30-8-58-8-88 0-56 14-116 30-178 18-54-10-98-38-112-72-8-20-2-44 10-56 10-10 26-16 50-16z"/>
+    <text x="360" y="155" text-anchor="middle"
+      font-family="Fredoka, Nunito, system-ui, sans-serif"
+      font-size="100" font-weight="700" fill="url(#y)"
+      stroke="#5a381c" stroke-width="12" paint-order="stroke fill"
+      letter-spacing="2">Oct Cafe</text>
+  </g>
+</svg>

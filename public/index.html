@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f0b87a" />
+  <meta name="description" content="Oct Cafe — Matt & Nikki's birthday home cafe" />
+  <title>Oct Cafe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="icon" href="/icons/oct-cafe-logo.png?v=party24" type="image/png" />
+  <link rel="apple-touch-icon" href="/icons/oct-cafe-logo.png?v=party24" />
+  <link rel="stylesheet" href="/styles.css?v=party24" />
+</head>
+<body class="page-guest">
+  <main class="wrap">
+    <header class="hero">
+      <p class="hero__badge">🎂 Matt &amp; Nikki · birthday café</p>
+      <img class="hero__logo" src="/icons/oct-cafe-logo.png?v=party24" width="280" height="160" alt="Oct Cafe logo" />
+      <h1 class="hero__title" id="cafeName">Oct Cafe</h1>
+      <p class="hero__welcome" id="welcome">It's Matt &amp; Nikki's birthday — pull up a chair, pick something cozy, and we'll bring it over.</p>
+      <nav class="nav-links" aria-label="Host links">
+        <a class="chip-link" href="/kitchen">🍳 Kitchen</a>
+        <a class="chip-link" href="/qr">📷 QR code</a>
+      </nav>
+    </header>
+
+
+    <aside class="my-order" id="myOrderPanel" hidden aria-live="polite">
+      <p class="my-order__label">🍃 My order</p>
+      <div class="my-order__list" id="myOrderList"></div>
+      <button type="button" class="my-order__sound chip-link" id="guestArmSound" aria-pressed="true" title="Ready chime is on — tap to mute">🔔 Sound on</button>
+      <details class="my-order__lookup">
+        <summary>Look up ticket</summary>
+        <form class="my-order__lookup-form" id="ticketLookupForm">
+          <label class="visually-hidden" for="ticketLookupInput">Ticket code</label>
+          <input id="ticketLookupInput" name="ticket" maxlength="8" placeholder="#A1B2 or last 4" autocomplete="off" />
+          <button type="submit" class="btn btn--primary">Find</button>
+        </form>
+      </details>
+    </aside>
+
+    <div id="menuRoot" aria-live="polite"></div>
+  </main>
+
+  <div class="cart-bar" id="cartBar" hidden>
+    <div class="cart-bar__inner">
+      <div class="cart-bar__summary" id="cartSummary">0 items</div>
+      <button type="button" class="cart-bar__btn" id="openCheckout">Order</button>
+    </div>
+  </div>
+
+  <div class="modal" id="checkoutModal" hidden role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+    <div class="modal__panel">
+      <h2 class="modal__title" id="checkoutTitle">Your order</h2>
+      <ul class="order-preview" id="orderPreview"></ul>
+      <form id="orderForm">
+        <div class="field">
+          <label for="guestName">Your name</label>
+          <input id="guestName" name="guestName" autocomplete="name" required maxlength="60" placeholder="e.g. Alex" />
+        </div>
+        <div class="field">
+          <label for="notes">Notes <span style="font-weight:400;color:var(--coffee-mid)">(optional)</span></label>
+          <textarea id="notes" name="notes" maxlength="300" placeholder="Extra hot, no ice, allergies…"></textarea>
+        </div>
+        <div class="modal__actions">
+          <button type="button" class="btn btn--ghost" id="cancelCheckout">Back</button>
+          <button type="submit" class="btn btn--primary" id="submitOrder">Send to kitchen</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  
+  <div class="modal confirm-modal" id="confirmModal" hidden role="dialog" aria-modal="true" aria-labelledby="confirmTitle">
+    <div class="modal__panel">
+      <div class="confirm-modal__leaf" aria-hidden="true">🍁</div>
+      <h2 class="modal__title" id="confirmTitle">Order received!</h2>
+      <p class="confirm-modal__ticket" id="confirmTicket">#—</p>
+      <p class="confirm-modal__thanks" id="confirmThanks">Thanks — the kitchen is on it.</p>
+      <p class="confirm-modal__hint" id="confirmTrackHint">We’ll update this as we make it — watch <strong>My order</strong> below.</p>
+      <ul class="confirm-modal__list" id="confirmList"></ul>
+      <div class="modal__actions" style="justify-content:center;">
+        <button type="button" class="btn btn--primary" id="confirmClose">Order more</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal ready-alert" id="readyAlert" hidden role="dialog" aria-modal="true" aria-labelledby="readyAlertTitle">
+    <div class="modal__panel ready-alert__panel">
+      <div class="ready-alert__leaf" aria-hidden="true">🍃</div>
+      <h2 class="modal__title ready-alert__title" id="readyAlertTitle">Ready! 🍃</h2>
+      <p class="ready-alert__ticket" id="readyAlertTicket">#—</p>
+      <p class="ready-alert__guest" id="readyAlertGuest"></p>
+      <p class="ready-alert__msg">We're bringing it over</p>
+      <div class="modal__actions" style="justify-content:center;">
+        <button type="button" class="btn btn--primary" id="readyAlertOk">Got it — received 🍃</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" hidden role="status"></div>
+
+  <script src="/app.js?v=party24" defer></script>
+</body>
+</html>

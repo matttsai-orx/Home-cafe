@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f0b87a" />
+  <title>QR — Oct Cafe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="icon" href="/icons/oct-cafe-logo.png?v=party23" type="image/png" />
+  <link rel="stylesheet" href="/styles.css?v=party23" />
+</head>
+<body class="page-qr">
+  <main class="wrap">
+    <header class="hero">
+      <img class="hero__logo hero__logo--sm" src="/icons/oct-cafe-logo.png?v=party23" width="200" height="114" alt="Oct Cafe logo" />
+      <h1 class="hero__title">Scan to order</h1>
+      <p class="hero__welcome">Guests scan in for Matt &amp; Nikki's birthday cafe. Print this or show it by the door.</p>
+      <nav class="nav-links">
+        <a class="chip-link" href="/">← Menu</a>
+        <a class="chip-link" href="/kitchen">Kitchen</a>
+      </nav>
+    </header>
+
+    <div class="qr-box">
+      <p class="qr-box__label">Guest menu URL</p>
+      <p class="qr-url" id="qrUrl"></p>
+      <img id="qrImage" width="256" height="256" alt="QR code for the cafe menu" />
+      <p id="qrError" class="qr-error" hidden></p>
+      <p class="qr-tip">
+        Tip: use the <strong>LAN</strong> address printed when you run <code>npm start</code>
+        (not localhost) so phones on Wi‑Fi can reach the host.
+      </p>
+      <p class="qr-custom">
+        <label for="customUrl">Or paste a URL to encode</label>
+        <input id="customUrl" type="url" placeholder="http://192.168.x.x:3847/" />
+      </p>
+      <button type="button" class="btn btn--primary" id="regenQr">Update QR</button>
+    </div>
+  </main>
+
+  <script src="/qr.js?v=party23" defer></script>
+</body>
+</html>
