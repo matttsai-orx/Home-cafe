@@ -18,21 +18,6 @@
           "image": "/icons/cold-brew.png"
         },
         {
-          "id": "iced-matcha",
-          "name": "Osmanthus honey iced matcha latte",
-          "description": "Iced matcha latte with floral osmanthus honey — bright, fragrant, lightly sweet.",
-          "emoji": "🥤",
-          "tags": [
-            "cold",
-            "matcha"
-          ],
-          "milkOptions": [
-            "Regular",
-            "Oat"
-          ],
-          "image": "/icons/osmanthus-matcha-layered.png"
-        },
-        {
           "id": "earl-grey-hojicha",
           "name": "Earl Grey hojicha latte",
           "description": "Roasty iced hojicha sweetened with Earl Grey syrup and milk. Toasty, floral, smooth.",
@@ -76,6 +61,21 @@
             "Oat"
           ],
           "image": "/icons/osmanthus-hojicha-layered.png"
+        },
+        {
+          "id": "iced-matcha",
+          "name": "Osmanthus honey iced matcha latte",
+          "description": "Iced matcha latte with floral osmanthus honey — bright, fragrant, lightly sweet.",
+          "emoji": "🥤",
+          "tags": [
+            "cold",
+            "matcha"
+          ],
+          "milkOptions": [
+            "Regular",
+            "Oat"
+          ],
+          "image": "/icons/osmanthus-matcha-layered.png"
         }
       ]
     },
