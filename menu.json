@@ -33,21 +33,6 @@
           "image": "/icons/osmanthus-matcha-layered.png"
         },
         {
-          "id": "iced-hojicha",
-          "name": "Iced hojicha latte",
-          "description": "Roasty Japanese hojicha over ice with creamy milk — nutty and smooth.",
-          "emoji": "🥤",
-          "tags": [
-            "cold",
-            "tea"
-          ],
-          "milkOptions": [
-            "Regular",
-            "Oat"
-          ],
-          "image": "/icons/hojicha-latte-layered.png"
-        },
-        {
           "id": "earl-grey-hojicha",
           "name": "Earl Grey hojicha latte",
           "description": "Roasty hojicha meets bergamot Earl Grey over ice with milk — toasty, floral, smooth.",
@@ -79,7 +64,7 @@
         },
         {
           "id": "osmanthus-hojicha",
-          "name": "Osmanthus hojicha latte",
+          "name": "Osmanthus honey hojicha latte",
           "description": "Roasty hojicha with sweet osmanthus blossom over ice — nutty, fragrant, cozy.",
           "emoji": "🥤",
           "tags": [
