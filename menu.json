@@ -35,7 +35,7 @@
         {
           "id": "earl-grey-hojicha",
           "name": "Earl Grey hojicha latte",
-          "description": "Roasty hojicha meets bergamot Earl Grey over ice with milk — toasty, floral, smooth.",
+          "description": "Roasty iced hojicha sweetened with Earl Grey syrup and milk. Toasty, floral, smooth.",
           "emoji": "🥤",
           "tags": [
             "cold",
@@ -50,7 +50,7 @@
         {
           "id": "earl-grey-matcha",
           "name": "Earl Grey matcha latte",
-          "description": "Iced matcha layered with bergamot-scented Earl Grey and milk — floral, toasty, mellow.",
+          "description": "Iced matcha sweetened with Earl Grey syrup and milk. Floral, earthy, mellow.",
           "emoji": "🥤",
           "tags": [
             "cold",
