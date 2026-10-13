@@ -46,6 +46,51 @@
             "Oat"
           ],
           "image": "/icons/hojicha-latte-layered.png"
+        },
+        {
+          "id": "earl-grey-hojicha",
+          "name": "Earl Grey hojicha latte",
+          "description": "Roasty hojicha meets bergamot Earl Grey over ice with milk — toasty, floral, smooth.",
+          "emoji": "🥤",
+          "tags": [
+            "cold",
+            "tea"
+          ],
+          "milkOptions": [
+            "Regular",
+            "Oat"
+          ],
+          "image": "/icons/earl-grey-hojicha-layered.png"
+        },
+        {
+          "id": "earl-grey-matcha",
+          "name": "Earl Grey matcha latte",
+          "description": "Iced matcha layered with bergamot-scented Earl Grey and milk — floral, toasty, mellow.",
+          "emoji": "🥤",
+          "tags": [
+            "cold",
+            "matcha"
+          ],
+          "milkOptions": [
+            "Regular",
+            "Oat"
+          ],
+          "image": "/icons/earl-grey-matcha-layered.png"
+        },
+        {
+          "id": "osmanthus-hojicha",
+          "name": "Osmanthus hojicha latte",
+          "description": "Roasty hojicha with sweet osmanthus blossom over ice — nutty, fragrant, cozy.",
+          "emoji": "🥤",
+          "tags": [
+            "cold",
+            "tea"
+          ],
+          "milkOptions": [
+            "Regular",
+            "Oat"
+          ],
+          "image": "/icons/osmanthus-hojicha-layered.png"
         }
       ]
     },
@@ -53,6 +98,16 @@
       "id": "bites",
       "title": "Bites",
       "items": [
+        {
+          "id": "jalapeno-cheddar-sourdough",
+          "name": "Jalapeño and cheddar sourdough",
+          "description": "Tangy sourdough studded with sharp cheddar and a little jalapeño kick.",
+          "emoji": "🌶️",
+          "tags": [
+            "savoury"
+          ],
+          "image": "/icons/jalapeno-cheddar-sourdough.png"
+        },
         {
           "id": "focaccia-sandwich",
           "name": "Mini Focaccia sandwich",
@@ -62,6 +117,37 @@
             "savoury"
           ],
           "image": "/icons/focaccia.png"
+        },
+        {
+          "id": "nutella-cookies",
+          "name": "Nutella cookies",
+          "description": "Soft, chewy cookies with gooey pockets of Nutella.",
+          "emoji": "🍪",
+          "tags": [
+            "sweet"
+          ],
+          "image": "/icons/nutella-cookies.png"
+        },
+        {
+          "id": "salt-bread",
+          "name": "Salt Bread (Shio Pan) 塩パン",
+          "description": "Japanese salted butter roll — crisp crust, soft crumb, buttery centre.",
+          "emoji": "🧂",
+          "tags": [
+            "savoury",
+            "bakery"
+          ],
+          "image": "/icons/salt-bread.png"
+        },
+        {
+          "id": "nama-donuts",
+          "name": "Nama donuts with oolong custard cream",
+          "description": "Pillowy Japanese-style nama donuts filled with silky roasted oolong custard.",
+          "emoji": "🍩",
+          "tags": [
+            "sweet"
+          ],
+          "image": "/icons/nama-donuts-oolong.png"
         },
         {
           "id": "egg-tart",
@@ -74,15 +160,14 @@
           "image": "/icons/egg-tart.png"
         },
         {
-          "id": "salt-bread",
-          "name": "Salt Bread (Shio Pan) 塩パン",
-          "description": "Japanese salted butter roll — crisp crust, soft crumb, buttery centre.",
-          "emoji": "🧂",
+          "id": "canele",
+          "name": "Canelé",
+          "description": "Caramelized crust, custardy vanilla-rum centre — a little Bordeaux treat.",
+          "emoji": "🧁",
           "tags": [
-            "savoury",
-            "bakery"
+            "sweet"
           ],
-          "image": "/icons/salt-bread.png"
+          "image": "/icons/canele.png"
         }
       ]
     }
